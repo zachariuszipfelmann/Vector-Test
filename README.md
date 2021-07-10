@@ -9,6 +9,6 @@ If you pay close attention, you can guess what I coded last by my code getting m
 
   S/Arrow Down -> Rotates by -1°/tick
 
-  R -> Lets you rotate by a specific amount
+  R -> Rotates by a specific amount
   
-  Left Click -> Point moves to your Mouse
+  Left Click -> Moves point to your mouse
