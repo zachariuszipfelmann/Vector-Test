@@ -31,8 +31,12 @@ class Vec2D
     return "[" + @x.to_s + ", " + @y.to_s + "]"
   end
 
-  def as_hash
+  def to_h
     return {x: @x, y: @y}
+  end
+
+  def as_hash
+    self.to_h
   end
 
   def length
