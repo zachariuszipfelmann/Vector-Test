@@ -80,7 +80,7 @@ class Vec2D
     return self
   end
 
-  def set_rotation(degrees)
+  def with_rotation(degrees)
     degrees = -degrees/57.2957795
 
     x = self.length * Math.cos(degrees)
@@ -89,7 +89,7 @@ class Vec2D
     return Vec2D.new(x, y)
   end
 
-  def set_rotation!(degrees)
+  def rotation=(degrees)
     degrees = -degrees/57.2957795
 
     x = self.length * Math.cos(degrees)

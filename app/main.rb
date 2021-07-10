@@ -89,7 +89,7 @@ class Game
     else
       state.point.rotate!(inputs.up_down)
       if inputs.mouse.button_left
-        state.point.set_rotation!((Vec2D.new(inputs.mouse.x, inputs.mouse.y) - CENTER_POINT).angle)
+        state.point.rotation = ((Vec2D.new(inputs.mouse.x, inputs.mouse.y) - CENTER_POINT).angle)
       end
     end
 
