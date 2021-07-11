@@ -1,7 +1,5 @@
 # Vector-Test
-A small demo to test my Vector class. Might add comments in the future.
-
-If you pay close attention, you can guess what I coded last by my code getting more and more messy.
+A small demo to test my Vector class.
 
 ### Controlls:
 
